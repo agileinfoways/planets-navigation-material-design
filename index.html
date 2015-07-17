@@ -1,0 +1,135 @@
+<html lang="en">
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Keania+One' rel='stylesheet' type='text/css'>
+        <!-- <link href='http://fonts.googleapis.com/css?family=Marvel:700' rel='stylesheet' type='text/css'> -->
+        <style>
+            body{
+                width:1024px;
+                font-size: 36px;
+                font-family: 'Keania One', cursive;
+                /*font-family: 'Marvel', sans-serif;*/
+				background: url(images/planets/bg2.jpg) no-repeat;
+                background-size: 1377px 800px;
+				color: #eee;
+				text-shadow: 1px 1px 2px #000;
+            }
+
+            #start{
+                text-align:center;
+                width:1024px;
+               
+            }
+            #slide1{
+                text-align:center;
+                width:1024px;
+                
+            }
+            #slide2{
+                text-align:center;
+                width:1024px;
+               
+            }
+
+            .step{
+                text-align:center;
+                width:1024px;
+               
+            }
+
+            #slide7{
+                width:400px;
+            }
+            #slide8{
+                width:400px;
+            }
+            #slide9{
+                width:400px;
+            }
+
+            .hint_text{
+				margin-top: 120px;
+                font-size:30px;
+                background-color:#282a2f;
+                padding:15px;
+				border: 1px solid #484d52;
+				border-radius: 5px;
+				font-size: 18px;
+				
+            }
+
+
+
+            .fallback-message {
+               	color: #eee;
+                line-height: 1.3;
+                width: 780px;
+                padding: 10px 10px 0;
+                margin: 20px auto;
+                border: 1px solid #E4C652;
+                border-radius: 10px;
+              
+            }
+
+            .fallback-message p {
+                margin-bottom: 10px;
+            }
+
+            .impress-supported .fallback-message {
+                display: none;
+            }
+			em{
+				font-style: normal;
+				border-bottom: 1px solid #484d52;
+				padding-bottom: 2px;
+				color: #d5a830;
+			}
+        </style>
+    </head>
+    <body class="impress-not-supported">
+
+
+
+        <div id="impress">
+            <div id="start" class="step" >
+                <p>Welcome to the tutorial for using impress.js</p>
+                <p>by Jay Shah - Agile Infoways Pvt. Ltd. </p>
+                <p class='hint_text'>Press <em>Spacebar</em> or <em>Arrow Keys</em> Tab To Get Started</p>
+            </div>
+
+            <div id="slide1" class="step" data-x="2200" data-y='500' data-z='-1000'>
+                <p><img src="images/planets/earth200x200.png"></p>
+            </div>
+            <div id="slide2" class="step" data-x="2700" data-y='700' data-z='-3000'>
+                <p><img src="images/planets/earth200x200.png"></p>
+            </div>
+            <div id="slide3" class="step" data-x="3000" data-y='200' data-z='-9000'>
+                <p><img src="images/planets/earth200x200.png"></p>
+            </div>
+            <div id="slide4" class="step" data-x="2100" data-y='50' data-z='-13000'>
+                <p><img src="images/planets/earth200x200.png"></p>
+            </div>
+            <div id="slide5" class="step" data-x="3700" data-y='300' data-z='-18000'>
+                <p><img src="images/planets/earth200x200.png"></p>
+            </div>
+            <div id="slide6" class="step" data-x="4000" data-y='130' data-z='-25000'>
+                <p><img src="images/planets/earth200x200.png"></p>
+            </div>
+            <div id="slide7" class="step" data-x="3100" data-y='270' data-z='-35000'>
+                <p><img src="images/planets/earth200x200.png"></p>
+            </div>
+            <div id="slide8" class="step" data-x="4700" data-y='80' data-z='-40000'>
+                <p><img src="images/planets/earth200x200.png"></p>
+            </div>
+            <div id="slide9" class="step" data-x="3200" data-y='100' data-z='-50000'>
+                <p><img src="images/planets/earth200x200.png" style="margin-right:50%"></p>   
+            </div>
+        </div>
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        <script type="text/javascript" src="js/impress.js"></script>
+        <script type="text/javascript">impress().init();</script>
+    </body>
+</html>
